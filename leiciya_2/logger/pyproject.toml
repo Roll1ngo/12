@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "logger"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav B <rolmf85@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prompt-toolkit = "^3.0.39"
+rich = "^13.5.2"
+mypy = {extras = ["d"], version = "^1.5.1"}
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["d"], version = "^23.9.0"}
+mypy = {extras = ["d"], version = "^1.5.1"}
+daemon = "^1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "autopep8",
+    "editor.defaultFoldingRangeProvider": "ms-python.autopep8",
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "[json]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    }
+}
+
